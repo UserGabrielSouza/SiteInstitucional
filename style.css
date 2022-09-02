@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    
+    }
+    body:hover{
+        background-color: white;
+    }
+
+.header{
+    color: blue;
+    border-bottom: solid 3px #32b9cd;
+
+}
+
+.container{
+    
+    width: 80%;
+    margin: auto;
+
+}
+
+h1{
+    
+    
+
+
+}
+
+h1:hover{
+    color: red ;
+    
+
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar{
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    color: #e3b062;
+    list-style: none;
+    align-items: center;
+
+}
+
+.navbar:hover{
+    color: black;
+
+}
